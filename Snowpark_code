@@ -30,12 +30,6 @@ LOANS = dataiku.Dataset("LOANS_ENRICHED_joined_prepared")
 snowdf = dku_snowpark.get_dataframe(LOANS)
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: MARKDOWN
-# ### To pandas
-
-# -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
-snowdf_pandas=snowdf.toPandas()
-
-# -------------------------------------------------------------------------------- NOTEBOOK-CELL: MARKDOWN
 # ### Lets do Feature Engineering using SnowPark
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: MARKDOWN
